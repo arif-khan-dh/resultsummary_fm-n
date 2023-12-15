@@ -74,8 +74,8 @@
         --x: 55px;
         content: "";
         position: absolute;
-        // background-image: url(../../assets/icons/down-right-curved-black-arrow.svg);
-        background-image: url(./assets/icons/down-right-curved-black-arrow.svg);
+        background-image: url(../../assets/icons/down-right-curved-black-arrow.svg);
+        // background-image: url(./assets/icons/down-right-curved-black-arrow.svg);
         background-size: var(--x) var(--x);
         display: block;
         height: var(--x);
