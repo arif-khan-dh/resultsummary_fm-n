@@ -1,0 +1,27 @@
+[
+    {
+        "greater_than": 95,
+        "congratulatory_msg": "Superv",
+        "percentage": 99
+    },
+    {
+        "greater_than": 90,
+        "congratulatory_msg": "Excellent",
+        "percentage": 95
+    },
+    {
+        "greater_than": 80,
+        "congratulatory_msg": "Awesome",
+        "percentage": 82
+    },
+    {
+        "greater_than": 70,
+        "congratulatory_msg": "Great",
+        "percentage": 60
+    },
+    {
+        "greater_than": 60,
+        "congratulatory_msg": "Good",
+        "percentage": 30
+    }
+]

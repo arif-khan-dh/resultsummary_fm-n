@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Hanken+Grotesk:wght@500;700;800&display=swap);
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Hanken Grotesk";
+  font-weight: 500;
+}
+@media (max-width: 375px) {
+  body {
+    align-items: start;
+  }
+}
+
+/*# sourceMappingURL=root.css.map */
