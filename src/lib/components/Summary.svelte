@@ -4,8 +4,6 @@
     import Button from "./Button.svelte";
     import { isBlinking } from "../stores/Blink";
     import { onMount } from "svelte";
-
-    import SliderButton from "../components/SliderButton.svelte";
     
     let _isBlinking = true;
     onMount(() => {
@@ -76,7 +74,8 @@
         --x: 55px;
         content: "";
         position: absolute;
-        background-image: url(../../assets/icons/down-right-curved-black-arrow.svg);
+        // background-image: url(../../assets/icons/down-right-curved-black-arrow.svg);
+        background-image: url(./assets/icons/down-right-curved-black-arrow.svg);
         background-size: var(--x) var(--x);
         display: block;
         height: var(--x);
